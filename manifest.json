@@ -1,12 +1,15 @@
 {
-    "name":"VueJS tips",
-    "description":"A tips app for vue js",
-    "version":"0.1",
+    "name":"VueJS Tips",
+    "description":"A tips app for VueJS",
+    "version":"0.2",
     "manifest_version":2,
     "permissions":["management"],
     "chrome_url_overrides":{
         "newtab":"index.html"
     },
+    "sandbox": {
+        "pages": ["index.html"]
+      },
     "icons":{
         "128":"logo.png"
     }
